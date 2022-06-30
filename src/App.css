@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  color: #8e95a5;
+  background: #1e2129;
+  width: 100%;
+  background-attachment: scroll;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #212529 !important;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.1rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.CardDesc {
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 7px;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.rate {
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+  padding: 5px;
+  text-align: start;
+}
+.CardButton {
+  margin: 10px 5px;
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.CardButton a {
+  color: #8e95a5;
+}
+
+.movieList {
+  margin: 50px 0;
+  padding: 50px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #1e2129;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: scroll;
+}
+
+Nav a,
+Nav a:hover {
+  color: #17a2b8;
+}
+
+.description {
+  margin: 50px 0;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: scroll;
+  background-color: #1e2129;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  margin: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.detail > div {
+  padding: 20px;
+  /* flex: 1; */
+  width: 100%;
+  text-align: start;
+}
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination > button {
+  border: none;
+  color: #1e2129;
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 0 #ffffff;
+  outline: none;
+  position: relative;
+  bottom: 70px;
+}
+button:hover {
+  background-color: #99e9f2;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.prevNext {
+  background-color: #17a2b8;
+  color: white;
+}
+
+a {
+  margin: 10px 15px;
+}
+.navbar {
+  align-content: center;
+}
